@@ -5,6 +5,10 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+    
+env:
+  SECRET_KEY: reidxewry8ik,@#$%^&*BRBIOVC*^ui
+  DEBUG: True
 
 jobs:
   build:
