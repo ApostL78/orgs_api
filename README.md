@@ -1,4 +1,4 @@
-# orgs_api
+# orgs_api [![Django CI](https://github.com/ApostL78/orgs_api/actions/workflows/django.yml/badge.svg)](https://github.com/ApostL78/orgs_api/actions/workflows/django.yml) [![codecov](https://codecov.io/gh/ApostL78/orgs_api/branch/master/graph/badge.svg?token=KRWBNOMBSX)](https://codecov.io/gh/ApostL78/orgs_api)
 Django REST framework приложение, с переопределённым пользователем и списком организаций в которых он состоит
 
 ## [Тестовое задание](https://docs.google.com/document/d/1-CnduFBumZC_xlnAxdFjxO2GeXpZgOZy/edit?usp=sharing&ouid=105845999361712496764&rtpof=true&sd=true)
