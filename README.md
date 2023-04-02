@@ -14,7 +14,7 @@ To implement ManyToMany relationship between user and organization we need 3 tab
 Also to get user by ID add his id to the end of url (.../1/) (Anyone can GET info, but only owner can edit by PUT or PATCH)
 2) For listing all organizations with their users we have an endpoint `organizations` (http://127.0.0.1:8000/api/organizations/) methods: GET, POST
 
-Make POST request to endpoit `token` (http://127.0.0.1:8000/api/organizations/) to get access token for authentication and then use it in headers (key: Authentication value: Bearer ACCESS_TOKEN)
+Make POST request to endpoit `token` (http://127.0.0.1:8000/api/token/) to get access token for authentication and then use it in headers (key: Authentication value: Bearer ACCESS_TOKEN)
 ### For more complex documentation visit [swagger](http://127.0.0.1:8000/swagger/) or [redoc](http://127.0.0.1:8000/redoc/) page when server is running
 
 # How To Run
